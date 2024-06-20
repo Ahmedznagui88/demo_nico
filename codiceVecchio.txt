@@ -1,0 +1,25 @@
+    My Components 0.1
+    
+    <div className='container text-center'>
+      <div className='row'>
+        <div className='col-12 text-center pt-5'>
+          <h2>Nostri Servizi e Prezzi</h2>
+        </div>
+        <div className='col-12 col-md-4 p-5 card-catalog'><h3>EPILAZIONE/CERETTA/LASER</h3></div>
+        <div className='col-12 col-md-4 p-5 card-catalog'><h3>TRATTAMENTI VISO E CORPO</h3></div>
+        <div className='col-12 col-md-4 p-5 card-catalog'><h3>TRUCCO SEMI PERMANENTE</h3></div>
+
+        <div className='col-12 col-md-4 p-5 card-catalog'><h3>EXTENSION CIGLIA</h3></div>
+        <div className='col-12 col-md-4 p-5 card-catalog'><h3>RICOSTRUZIONE UNGHIE</h3></div>
+        <div className='col-12 col-md-4 p-5 card-catalog'><h3>MANICURE</h3></div>
+
+        <div className='col-12 text-center p-5 card-catalog'><h2>PEDICURE</h2></div>
+
+      </div>
+    </div>
+
+
+url google maps
+
+https://maps.googleapis.com/maps/api/staticmap?center=44.640192,11.189253&zoom=14&size=400x400&maptype=roadmap&markers=color:red|41.902783,12.485322
+
