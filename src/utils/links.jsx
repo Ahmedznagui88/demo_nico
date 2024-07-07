@@ -7,7 +7,7 @@ import {
   FaYoutubeSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { useGlobalContext } from "../context";
+/* import { useGlobalContext } from "../context"; */
 
 const links = [
   {
@@ -16,13 +16,13 @@ const links = [
     icon: <AiFillHome className="nav-icon" />,
   },
   {
-    url: "/about",
-    text: "Chi Siamo",
+    url: "/servizi",
+    text: "Servizi",
     icon: <RiTeamFill className="nav-icon" />,
   },
   {
-    url: "/contattaci",
-    text: "contattaci",
+    url: "/VisiteCatalogo",
+    text: "Catalogo",
     icon: <AiFillMessage className="nav-icon" />,
   },
 ];
@@ -51,7 +51,7 @@ const LinkComponent = ({ classLink }) => {
   );
 };
 
-const socialLink = [
+/* const socialLink = [
   {
     url: "https://www.facebook.com/",
     icon: <FaFacebookSquare className="nav-icon" />,
@@ -64,7 +64,7 @@ const socialLink = [
     url: "https://www.youtube.com/",
     icon: <FaYoutubeSquare className="nav-icon" />,
   },
-];
+]; */
 
 const SocialComponent = ({ classSocial }) => {
   return (
