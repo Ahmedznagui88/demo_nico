@@ -5,7 +5,9 @@ import Servizi from "./components/Servizi/MyComponent";
 import VisteCatalogo from "./components/VisteCatalogo";
 
 
+
 function App() {
+
   return (
     <Router className="App">
       <Navbar />
