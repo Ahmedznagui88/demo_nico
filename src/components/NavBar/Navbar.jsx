@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
-
+import { LinkComponent } from "../../utils/links";
 
 const Navbar = () => {
   return (
@@ -17,6 +17,7 @@ const Navbar = () => {
             </button>
           </div>
         </header>
+        <LinkComponent classLink="nav-link" />
       </div>
     </nav>
   );

@@ -1,4 +1,4 @@
-import { IoSchool, IoPeopleCircleSharp } from "react-icons/io5";
+/* import { IoSchool, IoPeopleCircleSharp } from "react-icons/io5";
 import { ImDatabase } from "react-icons/im";
 
 export const valueCards = [
@@ -48,3 +48,4 @@ export const teamCards = [
     subtitle: "Creative Director",
   },
 ];
+ */

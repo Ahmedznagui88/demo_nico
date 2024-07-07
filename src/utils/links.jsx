@@ -13,17 +13,17 @@ const links = [
   {
     url: "/",
     text: "Home",
-    icon: <AiFillHome className="nav-icon" />,
+    /* icon: <AiFillHome className="nav-icon" />, */
   },
   {
     url: "/servizi",
     text: "Servizi",
-    icon: <RiTeamFill className="nav-icon" />,
+    /* icon: <RiTeamFill className="nav-icon" />, */
   },
   {
     url: "/VisiteCatalogo",
     text: "Catalogo",
-    icon: <AiFillMessage className="nav-icon" />,
+    /* icon: <AiFillMessage className="nav-icon" />, */
   },
 ];
 
@@ -51,35 +51,6 @@ const LinkComponent = ({ classLink }) => {
   );
 };
 
-/* const socialLink = [
-  {
-    url: "https://www.facebook.com/",
-    icon: <FaFacebookSquare className="nav-icon" />,
-  },
-  {
-    url: "https://twitter.com/home?lang=it",
-    icon: <FaTwitterSquare className="nav-icon" />,
-  },
-  {
-    url: "https://www.youtube.com/",
-    icon: <FaYoutubeSquare className="nav-icon" />,
-  },
-]; */
 
-const SocialComponent = ({ classSocial }) => {
-  return (
-    <ul className={classSocial}>
-      {socialLink.map((link) => {
-        return (
-          <li key={link.url} className="nav-item">
-            <a href={link.url} alt={link.url} className="nav-link">
-              {link.icon}
-            </a>
-          </li>
-        );
-      })}
-    </ul>
-  );
-};
 
-export { LinkComponent, SocialComponent };
+export { LinkComponent };
