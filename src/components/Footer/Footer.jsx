@@ -19,8 +19,8 @@ const Footer = () => {
           <Col xs={12} sm={6} md={3}>
             <h5>Contatti</h5>
             <ul className="list-unstyled">
-              <li><a href="#">Via Cento, 2, 40017 San Giovanni in Persicieto BO</a></li>
-              <li><a href="#">3479103980</a></li>
+              <li><a href="#">San Giovanni in Persicieto BO</a></li>
+              <li><a href="#">3232312344</a></li>
             </ul>
           </Col>
 

@@ -7,7 +7,7 @@ function Header() {
       <div className='row'> 
       <div className='col-12 col-md-6'>
         <div>
-        <img src="https://picsum.photos/500/500" alt="FotoLocale" />
+        <img src="../../../public/media/img/beauty asian girl.avif" className='img-fluid' alt="FotoLocale" />
         </div>
         </div>
         <div className='col-12 col-md-6'>
