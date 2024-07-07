@@ -7,7 +7,7 @@ const Vista2= () => {
             </div>
             <div className="col-6">
                 <h3>
-                    Baffetti
+                    Laser
                 </h3>
             </div>
             <div className="col-6">
@@ -18,4 +18,4 @@ const Vista2= () => {
     );
   };
 
-  export default Vista2
+  export default Vista2;

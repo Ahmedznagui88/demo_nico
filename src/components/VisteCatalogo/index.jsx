@@ -1,3 +1,4 @@
+import React from 'react';
 import Vista1 from './Vista1';
 import Vista2 from './Vista2';
 

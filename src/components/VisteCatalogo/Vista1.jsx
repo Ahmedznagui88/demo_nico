@@ -18,4 +18,4 @@ const Vista1= () => {
     );
   };
 
-  export default Vista1
+  export default Vista1;
