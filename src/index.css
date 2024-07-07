@@ -8,21 +8,20 @@
 }
 
 body {
-  background-color: white;
-
+  background-color: rgb(157, 157, 157);
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(../public/media/img/spa.avif);
-  background-size: 1440px ;
-  background-repeat: no-repeat;
-
 }
 
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.row-hero{
+  height: 100vh;
+  background-image: url(../public/media/img/spa.avif);
+  background-size: 1100px;
+  background-position: center 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 /* GLOBAL STYLE */
@@ -143,20 +142,17 @@ NAV STYLE
 */
 
 .nav {
-  background-color: transparent;
-  height: 4rem;
   display: flex;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
+  background-color: transparent;
   align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 12;
 }
 
 .nav-header {
   display: flex;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
+  display: flex;
   -moz-justify-content: space-between;
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
@@ -165,15 +161,14 @@ NAV STYLE
 }
 
 .nav-brand {
-  margin-bottom: 0.1rem;
- color: white;
+ color: rgb(0, 0, 0);
   text-transform: lowercase;
   font-variant: small-caps;
   text-decoration: none;
 }
 
 .nav-toggler {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding-bottom: 0;
   align-self: center;
   transition: var(--btn-transition);
@@ -204,7 +199,7 @@ NAV STYLE
   font-size: 1rem;
   text-transform: lowercase;
   font-variant: small-caps;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .nav-item {
@@ -235,7 +230,8 @@ NAV STYLE MEDIA QUERY
     -webkit-justify-content: space-around;
     -ms-justify-content: space-around;
     justify-content: space-around;
-    height: 5rem;
+    height: 2rem;
+
   }
 
   .container {
@@ -461,16 +457,13 @@ HERO STYLE
   align-items: center;
 }
 
-.home-hero-text {
-  width: 100%;
-  display: -moz-grid;
-  display: -ms-grid;
-  display: -webkit-grid;
+.hero-text {
+  font-size: 100px;
   display: grid;
   place-items: center;
   text-align: center;
   gap: 2rem;
-  color: var(--text-color);
+  color: aliceblue;
 }
 
 .home-hero-title {

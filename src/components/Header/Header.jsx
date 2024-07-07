@@ -1,18 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function Header() {
-
   return (
-    <div className='container-fluid'>
-      <div className='row'> 
-      <div className='col-12 col-md-6'>
-        </div>
-        <div className='col-12 col-md-6'>
-          Hi everyone this is a header
-        </div>
+    <div className="container-fluid mt-5">
+      <div className="row row-hero">
+        <div className="col-12 hero-text">Hi everyone this is a header</div>
       </div>
     </div>
-    
   );
 }
 
