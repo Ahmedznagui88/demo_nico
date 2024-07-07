@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="bg-dark text-light py-3">
       <Container style={{ textAlign: 'center' , paddingTop: '20px' , paddingBottom: '20px' }}>
         <Row>
-
           <Col xs={12} sm={6} md={3}>
             <h5>Informazioni</h5>
             <ul className="list-unstyled">
