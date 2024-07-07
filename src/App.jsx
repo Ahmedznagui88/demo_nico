@@ -1,5 +1,5 @@
-import Navbar from "./components/NavBar/MyNavbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/NavBar/Navbar";
 import Header from "./components/Header/Header";
 import Servizi from "./components/Servizi/MyComponent";
 import VisteCatalogo from "./components/VisteCatalogo";

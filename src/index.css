@@ -46,6 +46,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.logo{
+  text-decoration: none;
+  color: black;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -199,6 +204,7 @@ NAV STYLE
   color: var(--trypan-blue-2);
   text-transform: lowercase;
   font-variant: small-caps;
+  text-decoration: none;
 }
 
 .nav-toggler {
