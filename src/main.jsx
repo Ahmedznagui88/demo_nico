@@ -3,6 +3,9 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { AppProvider } from "./components/context.jsx";
 import "./index.css";
+import "./hero.css";
+import "./navbar.css";
+import "./sidebar.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
