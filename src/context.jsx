@@ -3,16 +3,17 @@ import { createContext, useContext, useState } from "react";
 const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  
+  
   const openSidebar = () => {
     setIsSidebarOpen(true);
-    console.log("open");
+    console.log('open')
   };
 
   const closeSidebar = () => {
     setIsSidebarOpen(false);
-    console.log("close");
+    console.log('close')
   };
 
   return (
@@ -20,7 +21,7 @@ const AppProvider = ({ children }) => {
       value={{
         isSidebarOpen,
         openSidebar,
-        closeSidebar,
+        closeSidebar,  
       }}
     >
       {children}

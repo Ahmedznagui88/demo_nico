@@ -4,9 +4,6 @@
     align-items: center;
     text-align: center;
     width: 100vw;
-    position: fixed;
-    top: 0;
-    z-index: 222222;
   }
   
   .nav-header {

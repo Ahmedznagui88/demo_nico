@@ -1,27 +1,28 @@
-import React from 'react';
-import { LinkComponent } from '../../utils/links';
+import React from "react";
+import { LinkComponent } from "../../utils/links";
 import { VscArrowSmallLeft } from "react-icons/vsc";
-import { useGlobalContext } from '../../context';
+import { useGlobalContext } from "../../context";
 
 const Sidebar = () => {
-  const { isSidebarOpen, closeSidebar } = useGlobalContext();
+  const { closeSidebar, isSidebarOpen } = useGlobalContext();
   return (
     <aside className={`${isSidebarOpen ? "sidebar show-sidebar" : "sidebar"}`}>
-      <div className='sidebar-content'>
-      <header className='container nav-header'>
-        <div className='nav-brand'>
-          <h2>element</h2>
-        </div>
-        <button className="nav-toggle btn icon-btn" onClick={closeSidebar}>
-        open
-        </button>
-      </header>
-      <div className="container">
+      <div className="sidebar-content">
+        <header className="nav-header container">
+          <div className="nav-brand">
+            <h2>element</h2>
+          </div>
+          <button className="nav-toggler btn icon-btn" onClick={closeSidebar}>
+            <VscArrowSmallLeft />
+            
+          </button>
+        </header>
+        <div className="container">
           <LinkComponent classLink="sidebar-links" />
         </div>
       </div>
     </aside>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
