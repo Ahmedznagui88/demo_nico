@@ -1,7 +1,7 @@
 import React from 'react';
 import { LinkComponent } from '../../utils/links';
 import { VscArrowSmallLeft } from "react-icons/vsc";
-import { useGlobalContext } from '../context';
+import { useGlobalContext } from '../../context';
 
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext();
@@ -12,8 +12,8 @@ const Sidebar = () => {
         <div className='nav-brand'>
           <h2>element</h2>
         </div>
-        <button className='nav-togler btn icon-btn' onClick={closeSidebar}>
-        <VscArrowSmallLeft className="nav-icon" />
+        <button className="nav-toggle btn icon-btn" onClick={closeSidebar}>
+        open
         </button>
       </header>
       <div className="container">

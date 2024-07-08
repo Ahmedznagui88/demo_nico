@@ -7,10 +7,12 @@ const AppProvider = ({ children }) => {
 
   const openSidebar = () => {
     setIsSidebarOpen(true);
+    console.log("open");
   };
 
   const closeSidebar = () => {
     setIsSidebarOpen(false);
+    console.log("close");
   };
 
   return (
