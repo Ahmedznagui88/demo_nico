@@ -13,7 +13,7 @@ const Sidebar = () => {
             <h2>element</h2>
           </div>
           <button className="nav-toggler btn icon-btn" onClick={closeSidebar}>
-            <VscArrowSmallLeft />
+            <VscArrowSmallLeft className="nav-icon" />
             
           </button>
         </header>

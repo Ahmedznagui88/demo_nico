@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Servizi from "./components/Servizi/MyComponent";
 import Sidebar from "./components/Sidebar/Sidebar";
 import VisteCatalogo from "./components/VisteCatalogo";
+import ErrorScreen from "./screen/ErrorScreen";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Route path="/" exact element={<Header />} />
         <Route path="/servizi" element={<Servizi />} />
         <Route path="/VisteCatalogo" element={<VisteCatalogo />} />
-        <Route path="*" element={<h1>404 Not Found</h1>} />
+        <Route path='*' element={<ErrorScreen />} />
       </Routes>
     </Router>
   );
