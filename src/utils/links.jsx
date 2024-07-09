@@ -12,8 +12,8 @@ const links = [
     text: "Servizi",
   },
   {
-    url: "/VisiteCatalogo",
-    text: "Catalogo",
+    url: "/Vista",
+    text: "Vista",
   },
 ];
 

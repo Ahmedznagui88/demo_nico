@@ -1,17 +1,16 @@
-import React from 'react';
-import Vista1 from './Vista1';
-import Vista2 from './Vista2';
+/* import React from 'react';
+import Vista1 from './Vista';
 
 const Viste = {
-  'vista1': Vista1,
-  'vista2': Vista2,
+  'vista': Vista,
 };
 
 export default function MyVisteCatalogo({ name }) {
   const CurrentVista = Viste[name];
   return (
     <div>
-      <CurrentVista />
+    <Vista1 />
     </div>
   );
 }
+ */

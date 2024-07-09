@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
@@ -18,7 +18,7 @@ const Footer = () => {
           <Col xs={12} sm={6} md={3}>
             <h5>Contatti</h5>
             <ul className="list-unstyled">
-              <li><a href="#">San Giovanni in Persicieto BO</a></li>
+              <li><a href="#">San Giovanni </a></li>
               <li><a href="#">3232312344</a></li>
             </ul>
           </Col>

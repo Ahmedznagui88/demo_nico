@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
-import { useGlobalContext } from "../../context";
-import { LinkComponent } from "../../utils/links";
+import { useGlobalContext } from "../context";
+import { LinkComponent } from "../utils/links";
 const Navbar = () => {
   const {openSidebar } = useGlobalContext();
   return (

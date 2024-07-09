@@ -1,7 +1,7 @@
 import React from "react";
-import { LinkComponent } from "../../utils/links";
+import { LinkComponent } from "../utils/links";
 import { VscArrowSmallLeft } from "react-icons/vsc";
-import { useGlobalContext } from "../../context";
+import { useGlobalContext } from "../context";
 
 const Sidebar = () => {
   const { closeSidebar, isSidebarOpen } = useGlobalContext();

@@ -14,15 +14,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.row-hero{
-  height: 100vh;
-  background-image: url(../public/media/img/spa.avif);
-  background-size: 1100px;
-  background-position: center 0;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
 
 /* GLOBAL STYLE */
 ul {
