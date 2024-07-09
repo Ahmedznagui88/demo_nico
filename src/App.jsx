@@ -18,7 +18,9 @@ function App() {
         <Route path="/Vista" element={<Vista />} />
         <Route path='*' element={<ErrorScreen />} />
       </Routes>
+{/*       <div className="min-vh-100">
       <Footer/>
+      </div> */}
     </Router>
   );
 }

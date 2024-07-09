@@ -9,9 +9,6 @@ const Navbar = () => {
     <nav className="nav">
       <div className="container nav-container">
         <header className="nav-header">
-          <Link to="/" className="nav-brand">
-            Demo
-          </Link>
           <div className="nav-toggler">
             <button className="icon-btn btn nav-toggler" onClick={openSidebar}>
               <FaBars className="nav-icon" />
